@@ -8,7 +8,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="w-full bg-gray-900 text-white py-4 shadow-lg">
+    <header className="w-full bg-gray-900 text-white py-4 shadow-lg fixed top-0 left-0 right-0 z-50">
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
 
         {/* Logo */}
@@ -21,16 +21,15 @@ export default function Header() {
 
           {/* Menu */}
           <nav className="flex items-center gap-6 text-sm font-medium">
-            <a href="#recursos" className="block mt-4  hover:bg-orange-700">Produtos</a>
-          <a href="#beneficios" className="block mt-4  hover:bg-orange-700">Resultados</a>
-          <a href="#contato" className="block mt-4 hover:bg-orange-700">Contatos</a>
-          <a href="#sobre" className="block mt-4  hover:bg-orange-700">Sobre</a>
+            <a href="#result" className="hover:text-orange-400 transition-colors">Resultados</a>
+            <a href="#footer" className="hover:text-orange-400 transition-colors">Contatos</a>
+            <a href="#sobre" className="hover:text-orange-400 transition-colors">Sobre</a>
           </nav>
 
           {/* CTA */}
           <Link
             href="#comprar"
-            className="block mt-4 bg-orange-600 hover:bg-orange-700 text-white px-5 py-2 rounded-md"
+            className="bg-orange-600 hover:bg-orange-700 text-white px-5 py-2 rounded-md transition-colors"
           >
             Produtos
           </Link>
@@ -47,11 +46,10 @@ export default function Header() {
 
       {/* Menu Mobile */}
       {open && (
-        <nav className="md:hidden bg-gray-800 text-white p-6 space-y-4">
-          <a href="#recursos" className="block mt-4 hover:bg-orange-700">Produtos</a>
-          <a href="#beneficios" className="block mt-4  hover:bg-orange-700">Resultados</a>
-          <a href="#contato" className="block mt-4  hover:bg-orange-700">Contatos</a>
-          <a href="#sobre" className="block mt-4  hover:bg-orange-700">Sobre</a>
+        <nav className="md:hidden bg-gray-800 text-white p-6 space-y-4 absolute top-full left-0 right-0 shadow-lg">
+          <a href="#beneficios" className="block py-2 hover:bg-orange-700 transition-colors">Resultados</a>
+          <a href="#contato" className="block py-2 hover:bg-orange-700 transition-colors">Contatos</a>
+          <a href="#sobre" className="block py-2 hover:bg-orange-700 transition-colors">Sobre</a>
 
           <Link
             href="#comprar"

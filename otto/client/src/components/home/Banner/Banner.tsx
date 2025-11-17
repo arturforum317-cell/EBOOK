@@ -52,7 +52,7 @@ export default function LandingPage() {
     </p>
 
     <a
-      href="https://pay.kiwify.com.br/3QYbBtz"
+      href="https://pay.kiwify.com.br/64ko67U"
       className="block mt-4 bg-orange-600 hover:bg-orange-700 text-white text-center font-semibold py-2 rounded-lg transition"
     >
       Comprar
@@ -71,7 +71,7 @@ export default function LandingPage() {
     </p>
 
     <a
-      href="https://pay.kiwify.com.br/3QYbBtz"
+      href="https://pay.kiwify.com.br/QLEhOkL"
       className="block mt-4 bg-orange-600 hover:bg-orange-700 text-white text-center font-semibold py-2 rounded-lg transition"
     >
       Comprar
@@ -143,7 +143,7 @@ export default function LandingPage() {
           </div>
 
           <Link
-            href="https://pay.kiwify.com.br/3QYbBtz"
+            href="#"
             className="inline-block mt-12 bg-orange-600 hover:bg-orange-700 text-white font-semibold px-8 py-4 rounded-xl text-xl transition"
           >
             Quero começar agora
@@ -152,7 +152,7 @@ export default function LandingPage() {
         </div>
       </section>
 {/* PROVA SOCIAL */}
-<section className="py-16 px-6">
+<section id="result" className="py-16 px-6">
   <div className="max-w-5xl mx-auto text-center">
     <h2 className="text-2xl md:text-3xl font-bold">Resultados Reais</h2>
     <p className="text-gray-600 mt-4">
