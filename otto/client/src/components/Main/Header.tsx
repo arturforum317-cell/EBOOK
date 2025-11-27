@@ -21,14 +21,15 @@ export default function Header() {
 
           {/* Menu */}
           <nav className="flex items-center gap-6 text-sm font-medium">
-            <a href="#result" className="hover:text-orange-400 transition-colors">Resultados</a>
+            <a href="/" className="hover:text-orange-400 transition-colors">início</a>
             <a href="#footer" className="hover:text-orange-400 transition-colors">Contatos</a>
-            <a href="#sobre" className="hover:text-orange-400 transition-colors">Sobre</a>
+            <a href="/About
+            " className="hover:text-orange-400 transition-colors">Sobre</a>
           </nav>
 
           {/* CTA */}
           <Link
-            href="#comprar"
+            href="/ban"
             className="bg-orange-600 hover:bg-orange-700 text-white px-5 py-2 rounded-md transition-colors"
           >
             Produtos
@@ -49,7 +50,7 @@ export default function Header() {
         <nav className="md:hidden bg-gray-800 text-white p-6 space-y-4 absolute top-full left-0 right-0 shadow-lg">
           <a href="#beneficios" className="block py-2 hover:bg-orange-700 transition-colors">Resultados</a>
           <a href="#contato" className="block py-2 hover:bg-orange-700 transition-colors">Contatos</a>
-          <a href="#sobre" className="block py-2 hover:bg-orange-700 transition-colors">Sobre</a>
+          <a href="Sob" className="block py-2 hover:bg-orange-700 transition-colors">Sobre</a>
 
           <Link
             href="#comprar"

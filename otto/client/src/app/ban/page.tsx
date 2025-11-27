@@ -1,16 +1,16 @@
 import Header from "@/components/Main/Header";
 import Footer from "@/components/Main/Footer";
-import Baner from "@/components/home/Banner/Baner";
+import Ban from "@/components/home/Banner/ban";
 
 
 
 
-export default function Page() {
+export default function BanPage() {
     return (
         <div className="flex flex-col min-h-screen">
         <Header />
         <main className="flex-grow">
-          <Baner />
+          <Ban />
         </main>
         <Footer />
       </div>
