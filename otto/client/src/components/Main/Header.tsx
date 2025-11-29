@@ -27,7 +27,7 @@ export default function Header() {
               Contato
             </Link>
 
-            <Link href="/about" className="hover:text-orange-400 transition-colors">
+            <Link href="/sobre" className="hover:text-orange-400 transition-colors">
               Sobre
             </Link>
           </nav>
@@ -62,7 +62,7 @@ export default function Header() {
           </Link>
 
           <Link
-            href="/About"
+            href="/sobre"
             onClick={() => setOpen(false)}
             className="block py-2 hover:bg-orange-700 transition-colors"
           >

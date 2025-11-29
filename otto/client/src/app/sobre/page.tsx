@@ -1,6 +1,6 @@
 import Header from "@/components/Main/Header";
 import Footer from "@/components/Main/Footer";
-import About from "@/components/home/Banner/About";
+import Sobre from "@/components/home/Banner/sobre";
 
 
 
@@ -10,7 +10,7 @@ export default function SobrePage() {
         <div className="flex flex-col min-h-screen">
         <Header />
         <main className="flex-grow">
-          <About />
+          <Sobre />
         </main>
         <Footer />
       </div>
