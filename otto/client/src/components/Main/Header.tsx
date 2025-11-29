@@ -62,7 +62,7 @@ export default function Header() {
           </Link>
 
           <Link
-            href="/about"
+            href="/About"
             onClick={() => setOpen(false)}
             className="block py-2 hover:bg-orange-700 transition-colors"
           >
