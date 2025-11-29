@@ -16,18 +16,22 @@ export default function Header() {
           Artur Mídia
         </Link>
 
-        {/* Nav + CTA alinhados à direita */}
+        {/* Desktop */}
         <div className="hidden md:flex items-center gap-8">
-
-          {/* Menu */}
           <nav className="flex items-center gap-6 text-sm font-medium">
-            <a href="/" className="hover:text-orange-400 transition-colors">início</a>
-            <a href="#footer" className="hover:text-orange-400 transition-colors">Contatos</a>
-            <a href="/About
-            " className="hover:text-orange-400 transition-colors">Sobre</a>
+            <Link href="/" className="hover:text-orange-400 transition-colors">
+              Início
+            </Link>
+
+            <Link href="#footer" className="hover:text-orange-400 transition-colors">
+              Contato
+            </Link>
+
+            <Link href="/about" className="hover:text-orange-400 transition-colors">
+              Sobre
+            </Link>
           </nav>
 
-          {/* CTA */}
           <Link
             href="/ban"
             className="bg-orange-600 hover:bg-orange-700 text-white px-5 py-2 rounded-md transition-colors"
@@ -36,25 +40,47 @@ export default function Header() {
           </Link>
         </div>
 
-        {/* Botão Mobile */}
+        {/* Mobile Button */}
         <button
           className="md:hidden text-white"
           onClick={() => setOpen(!open)}
+          aria-label="Menu"
         >
           {open ? <FiX size={26} /> : <FiMenu size={26} />}
         </button>
       </div>
 
-      {/* Menu Mobile */}
+      {/* Mobile Menu */}
       {open && (
         <nav className="md:hidden bg-gray-800 text-white p-6 space-y-4 absolute top-full left-0 right-0 shadow-lg">
-          <a href="#beneficios" className="block py-2 hover:bg-orange-700 transition-colors">Resultados</a>
-          <a href="#contato" className="block py-2 hover:bg-orange-700 transition-colors">Contatos</a>
-          <a href="Sob" className="block py-2 hover:bg-orange-700 transition-colors">Sobre</a>
+          <Link
+            href="/"
+            onClick={() => setOpen(false)}
+            className="block py-2 hover:bg-orange-700 transition-colors"
+          >
+            Início
+          </Link>
 
           <Link
-            href="#comprar"
-            className="block bg-green-600 hover:bg-green-700 text-center transition text-white font-semibold px-5 py-2 rounded-md"
+            href="/about"
+            onClick={() => setOpen(false)}
+            className="block py-2 hover:bg-orange-700 transition-colors"
+          >
+            Sobre
+          </Link>
+
+          <Link
+            href="#footer"
+            onClick={() => setOpen(false)}
+            className="block py-2 hover:bg-orange-700 transition-colors"
+          >
+            Contato
+          </Link>
+
+          <Link
+            href="/ban"
+            onClick={() => setOpen(false)}
+            className="block bg-green-600 hover:bg-green-700 text-center text-white font-semibold px-5 py-2 rounded-md"
           >
             Produtos
           </Link>
