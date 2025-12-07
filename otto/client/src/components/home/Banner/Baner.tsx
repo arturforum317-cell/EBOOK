@@ -37,7 +37,7 @@ export default function LandingPage() {
             className="w-full h-64 object-cover rounded-lg"
           />
           <p className="mt-3 font-bold text-gray-900 text-center">
-            Perca 5kg em 7 Dias
+            JEJUM INTERMITENTE
           </p>
 
           <Link
@@ -86,7 +86,7 @@ export default function LandingPage() {
         </h2>
 
         <p className="text-lg leading-relaxed text-center max-w-2xl mx-auto">
-          Ao adquirir o <strong>Ebook Dieta para Perder 7kg em 1 Semana</strong> +
+          Ao adquirir o <strong>Ebook JEJUM INTERMITENTE</strong> +
           o <strong>Ebook Chá Termogênico</strong>, você ganha
           <span className="text-green-400 font-bold"> totalmente de graça </span>
           o <strong>Ebook Exercícios Fáceis em Casa</strong>.

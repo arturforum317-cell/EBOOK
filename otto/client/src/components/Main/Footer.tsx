@@ -8,7 +8,7 @@ export default function Footer() {
 
         {/* Coluna 1 - Marca */}
         <div className="max-w-xs">
-          <h2 className="text-2xl font-bold mb-3">Artur Mídia
+          <h2 className="text-2xl font-bold mb-3">HoraDeSecar
 </h2>
           <p className="text-sm text-gray-300">
            Conteúdo prático para quem quer emagrecer rápido de forma saudável. Materiais diretos, acessíveis e feitos para resultados reais.

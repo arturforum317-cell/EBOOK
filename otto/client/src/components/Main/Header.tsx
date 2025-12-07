@@ -13,7 +13,7 @@ export default function Header() {
 
         {/* Logo */}
         <Link href="/" className="text-2xl font-bold tracking-wide">
-          Artur Mídia
+          HoraDeSecar
         </Link>
 
         {/* Desktop */}

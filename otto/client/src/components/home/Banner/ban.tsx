@@ -29,7 +29,7 @@ export default function BannersPage() {
 
           <div className="flex-1 text-center md:text-left">
             <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900">
-              Perca 5kg em Apenas 7 Dias
+              JEJUM INTERMITENTE
             </h2>
 
             <p className="text-gray-700 mt-4 text-base md:text-lg">
